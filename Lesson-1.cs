@@ -6,7 +6,8 @@ namespace HelloWorld //namespace is used to organize your code, and it is a cont
   {
     static void Main(string[] args) // Another thing that always appear in a C# program, is the Main method. Any code inside its curly brackets {} will be executed. You don't have to understand the keywords before and after Main. You will get to know them bit by bit while reading this tutorial.
     {
-      Console.WriteLine("Hello World!");    /* Another thing that always appear in a C# program, is the Main method. Any code inside its curly brackets {} will be executed. You don't have to understand the keywords before and after Main. You will get to know them bit by bit while reading this tutorial.
+      Console.WriteLine("Hello World!");    /* Another thing that always appear in a C# program, is the Main method. 
+      Any code inside its curly brackets {} will be executed. You don't have to understand the keywords before and after Main. You will get to know them bit by bit while reading this tutorial.
       If you omit the using System line, you would have to write System.Console.WriteLine() to print/output text. */
     }
   }
