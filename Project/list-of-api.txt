@@ -1,0 +1,70 @@
+1. User Registration ( Employee / Client will register)
+	- While register need the check the username is already exist and do registration. (API 1)
+	
+2. Login
+	- Check the valid username and password (API 2) 
+
+3. Create New Project ( assign Project Manager )
+	- Check the Project name is already exist
+	- While do check for project name, need to check with clientID.
+	- If the project name is not there, then create a project (API 3)
+	- Update Project (API 4)
+	- Delete Project (API 5)
+
+4. Create the Team for the project 
+	- Create team for the project (API 6)
+	- Update team members (API 7)
+	- Remove a member from team (API 8)
+
+5. Create a Task ( assign task to team member )
+	- Create a task. Need to check the task title exist. Get Task Start-DateTime and End-DateTime (API 9)
+	- Update the task. Need to check the task title is already there with some other ID (API 8)
+	- Delete the task. (API 9)
+
+6. Followup in Task
+	- Create a followup (API 10)
+	- Update a followup (API 11)
+	- Delete a followup (API 12)
+
+7. Update the Task Status ( Ongoing, Completed)
+	- Update task status (API 13)	
+
+8. Update the project Status
+	- Update project status (API 14)
+
+9. Update user information by Admin - (API 15)
+	- Should not allow to change the username and password.
+
+10. Password forget - (API 16)
+
+11. Delete user by Admin - (API 17)
+
+12.File attachment - (API 18)
+
+
+General UI
+	- Registration 
+	- Login
+	- Forget Password
+
+Admin UI
+	- Dashboard (List of projects, list of tasks)
+	- Create a Project
+	- List Projects
+	- Create Team for a Project
+	- Create tasks for a Employee
+	- Update project Status
+	- Update User Details
+	
+Client UI
+	- Dashboard ( List of Projects, list of tasks assigned for client)
+	- Create a New Project
+	- List of tasks assigned for client
+	- Update tasks followup
+	- Update task status
+
+Employee / Project Manager UI
+	- Dashboard ( List of Projects, list of tasks assigned for employee)
+	- List of tasks assigned for employee
+	- Update tasks followup
+	- Update task status
